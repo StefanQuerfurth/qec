@@ -1,0 +1,124 @@
+# Empty CSS file for your own CSS
+
+.col-md-4 {padding:2em;}
+
+.horizLine  {border-bottom:2px solid #999999;}
+
+// .container-fluid {padding:0;}
+
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    height:95px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #66f;
+    background-color: #ffffff;
+}
+
+.nav {
+    margin: 0px 45px 0px 0px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px;
+}
+
+ul.nav li.divider {
+    border-left:2px solid #ccccff;
+    height: 20px;
+    margin: 0px 20px;
+}
+.page-header {
+    padding-bottom: 0px;
+    margin: 40px 0 20px;
+    border-bottom: 0px;
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	overflow: hidden;
+	border: none;
+	background: url(../img/cross.png) no-repeat center center;
+	text-indent: 200%;
+	color: transparent;
+	outline: none;
+	z-index: 100;
+}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+    background-color: rgba(180,180,255,0.9); 
+    background: rgba(153,204,51,0.9)
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+button.ui-btn, .ui-controlgroup-controls button.ui-btn-icon-notext {
+    width: inherit;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0px; 
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(153,204,51,0.9);
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+    background-color: #fff;
+    border-color: #fff;
+    color: #333;
+    text-shadow: 0 1px 0 #ccc;
+}
+
+a.ui-btn {    background-color: #fff;}
+
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    background-color: #ffffff;
+ //   border-color: #ffffff;
+    color: #333;
+    text-shadow: 0 0px 0 #ffffff;
+}
+
+
+.ui-shadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+
+        
+@media (max-width: 768px) {
+
+.navbar-right {
+    background-color:#fefefe;
+    opacity: 0.85;
+    margin-top:45px;    
+}
+
+li.divider {display:none;}
+
+}
+
+/*
+.row {
+    margin-right: -30px;
+    margin-left: -30px;
+} */
+
